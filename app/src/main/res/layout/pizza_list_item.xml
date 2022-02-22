@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imgPizza"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피자헛"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피자헛"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+<!--        <com.willy.ratingbar.ScaleRatingBar-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:srb_rating="2"-->
+<!--            app:srb_starWidth="20dp"-->
+<!--            app:srb_starHeight="20dp"-->
+<!--            app:srb_starPadding="2dp"-->
+<!--            />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
